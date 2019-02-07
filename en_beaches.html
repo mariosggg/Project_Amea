@@ -1,0 +1,389 @@
+
+
+<html lang="el-GR">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Τουρισμός ΚΑΙ ΑμεΑ</title>
+	   <script src="js/top1.js"></script>
+	   <script src="js/top2.js"></script>
+<meta name="description" content="Welcome to Heraklion">
+		<meta name="keywords" content="html, javascript, css">
+
+		<link rel="shortcut icon" href="images/favicon.ico">
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+$(document).ready(function () {
+
+	//min font size
+	var min=16; 	
+
+	//max font size
+	var max=24;	
+	
+	//grab the default font size
+	var reset = $('p').css('fontSize'); 
+	
+	//font resize these elements
+	var elm = $('p, h2, .post_mid, h4, #bottom_panel, .top, .bottom_section_box .body li');  
+	
+	//set the default font size and remove px from the value
+	var size = str_replace(reset, 'px', ''); 
+	
+	//Increase font size
+	$('a.fontSizePlus').click(function() {
+		
+		//if the font size is lower or equal than the max value
+		if (size<=max) {
+			
+			//increase the size
+			size++;
+			
+			//set the font size
+			elm.css({'fontSize' : size});
+		}
+		
+		//cancel a click event
+		return false;	
+		
+	});
+
+	$('a.fontSizeMinus').click(function() {
+
+		//if the font size is greater or equal than min value
+		if (size>=min) {
+			
+			//decrease the size
+			size--;
+			
+			//set the font size
+			elm.css({'fontSize' : size});
+		}
+		
+		//cancel a click event
+		return false;	
+		
+	});
+	
+	//Reset the font size
+	$('a.fontReset').click(function () {
+		
+		//set the default font size	
+		 elm.css({'fontSize' : reset});		
+	});
+		
+});
+
+//A string replace function
+function str_replace(haystack, needle, replacement) {
+	var temp = haystack.split(needle);
+	return temp.join(replacement);
+}
+</script>
+
+</head>
+
+<body>
+
+	<div id="section_top">
+    
+    	<div class="container">
+		
+        	<div id="header">
+				<div id="logo_section">   
+		<h4><script>
+		var d=new Date()
+
+		var weekday=new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
+
+		var monthname=new Array("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
+
+		document.write(weekday[d.getDay()] + ", ")
+
+		document.write(d.getDate() + "  ")
+
+		document.write(monthname[d.getMonth()] + " ")
+
+		document.write(d.getFullYear())
+		</script></h4>	<br>
+		<div id="logo_section1"> 		
+		<img src="images/audio.png" alt="Sound" width="42" height="42"&nbsp;&nbsp;/>
+		</div>
+		<h2>&nbsp;&nbsp;Audio texts for the Disabled</h2>
+
+		        	        <h1><a href="index.html" target="_parent">We welcome people </a></h1><br>
+							<br><h1><a href="index.html" target="_parent">with disabilities in Heraklion</a></h1>
+				</div>
+              
+         	</div><!-- end of headder -->
+                
+    		<div id="menu_panel">
+            							
+				
+
+
+    			<div id="menu_section">
+				
+				
+
+									
+										
+					<ul>
+						
+		                <li><a href="en_index.html" >Home</a></li>
+        		        <li><a href="en_hotels.html" >Hotels</a></li>
+		                <li><a href="en_rest.html" >Restaurants</a></li>
+						<li><a href="en_beaches.html" >Beaches</a></li>
+						<li><a href="en_museum.html" >Museums</a></li>
+                		<li><a href="en_contact.php" >Contact</a></li> 
+
+		            </ul>
+							
+				
+                    
+				</div>
+				
+                
+		    </div> <!-- end of menu -->
+            	
+		</div><!-- end of container-->
+        
+	</div><!-- end of background_section_top-->
+
+    
+		<div id="background_section_middle">
+  
+    	<div class="container">
+
+			<div  id="Fontsize">
+			<a href="#" class="fontSizeMinus"><img src="images/minus.jpg" width="60px;" alt="minus"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="#" class="fontSizePlus"><img src="images/plus.jpg" width="60px;" alt="plus"/>
+			</div>
+
+        	<div id="left_section">
+			<div id="flags"><a href="beaches.html"><img src="images/gr.gif" alt="greece" width="60px;"/></a>&nbsp;&nbsp;<a href="en_beaches.html"><img src="images/uk.gif" alt="uk" width="60px;"/></a>&nbsp;&nbsp;<a href="fr_beaches.html"><img src="images/fr.gif" alt="fr" width="60px;"/></a>&nbsp;&nbsp;</div>
+                 <br><br><br>
+			<div id="change">
+			Change Colors
+			</div>
+	<div id="flags2">
+<form>
+<select name="menu" style= "background-color: #ccff00;">
+<option value="index.html">Default colors</option>
+<option value="backgrounds/black_green/index.html">Black Green</option>
+<option value="backgrounds/black_orange/index.html">Black Orange</option>
+<option value="backgrounds/blue_white/index.html">Blue White</option>
+<option value="backgrounds/yellow_black/index.html">Yellow Black</option>
+</select>
+<input style="background-color: #ccff00;" type="button" onClick="location=this.form.menu.options[this.form.menu.selectedIndex].value;" value="Submit">
+</form>
+</div>
+                <div class="post">
+						
+                	<div class="post_top">
+
+                    	<h1>1. SARANTARI IN LIMENAKIA, Hersonissos</h1>
+                    </div>
+                    <div class="post_mid">
+             
+                        <br>
+
+						<p>&#10003; Fully accessible for disabled</p>
+						<p>&#10003; Chemical toilet type Disabled</p>
+						<p>&#10003; Complimentary use of umbrella and two chairs for the disabled person and companion</p>
+						<p>&#10003; Free use special wheelchairs disabled access to the sea (MOBI CHAIR)</p>
+						<p>&#10003; Normal sea depth</p>
+						<p>&#10003; Ideal for relaxation</p>
+						<p>&#10003; Ideal for access to cyclists</p>
+						<p>&#10003; Ideal for groups and young people and families</p>
+						<p>&#10003; Free parking</p>
+						
+	
+                       
+						<div class="post_second">
+						<img src="images/Παραλίες/1.jpg" width="604" height="453" />
+						</div>
+                        <div class="clear"></div>
+                        
+                    </div>
+                
+                    
+					
+				</div><!-- end of _post-->
+				
+				       <div class="post">
+						
+                	<div class="post_top">
+
+                    	<h1>2. POTAMOS  IN MALIA</h1>
+                    </div>
+                    <div class="post_mid">
+             
+                        <br>
+						<p>&#10003; Fully accessible for disabled</p>
+						<p>&#10003; Chemical toilet type Disabled</p>
+						<p>&#10003; Free use of umbrella and two chairs for the disabled person and companion</p>
+						<p>&#10003; Free use special wheelchairs disabled access to the sea (MOBI CHAIR)</p>
+						<p>&#10003; Shallow depth of sea</p>
+						<p>&#10003; Lifeguard services</p>
+						<p>&#10003; Ideal for rest and routes</p>
+						<p>&#10003; Ideal destination / bike path</p>
+						<p>&#10003; Ideal for families and groups of all ages</p>
+						<p>&#10003; Lovely beach and water quality</p>
+						<p>&#10003; Blue Flag 2014</p>
+						
+						
+
+						<div class="post_second">
+						
+						<img src="images/Παραλίες/2.jpg" width="604" height="453" />
+						</div>
+                        <div class="clear"></div>
+                        
+                    </div>
+                
+                    
+					
+				</div><!-- end of _post-->
+				
+				       <div class="post">
+						
+                	<div class="post_top">
+
+                    	<h1>3. ESTAVROMENOS, KATW VATHEIA - ELIA</h1>
+                    </div>
+                    <div class="post_mid">
+             
+                        <br>
+
+						<p>&#10003; Fully accessible for disabled</p>
+						<p>&#10003; A chemical toilet type Disabled</p>
+						<p>&#10003; Free use of umbrella and two chairs for the disabled person and companion</p>
+						<p>&#10003; Free use special wheelchairs disabled access to the sea (MOBI CHAIR)</p>
+						<p>&#10003; Lifeguard services</p>
+						<p>&#10003; Lovely sand and water quality</p>
+						<p>&#10003; Easy access from Heraklion  with public transport</p>
+						<p>&#10003; Easy free parking</p>
+						<p>&#10003; Ideal for sports such as volleyball, ping, surf</p>
+						<p>&#10003; Ideal for families</p>
+						
+						
+						<div class="post_second">
+						
+						<img src="images/Παραλίες/3.jpg" width="604" height="453" />
+						</div>
+                        <div class="clear"></div>
+                        
+                    </div>
+                
+                    
+					
+				</div><!-- end of _post-->
+				  <div class="post">
+						
+                	<div class="post_top">
+
+                    	<h1>4. ALMYROU,  AMMOUDARA</h1>
+                    </div>
+                    <div class="post_mid">
+             
+                        <br>
+
+						<p>&#10003; Fully accessible for disabled</p>
+						<p>&#10003; Lifeguard services</p>
+						<p>&#10003; Special access ramp to the sea for the disabled with special floating chair</p>
+						<p>&#10003; Especially changing rooms</p>
+						<p>&#10003; Parking lot</p>
+						<p>&#10003; Great beach with fine brown sand</p>
+						<p>&#10003; Blue Flag 2014</p>
+						
+                      
+						
+						<div class="post_second">
+						
+						<img src="images/Παραλίες/4.jpg" width="604" height="453" />
+						</div>
+                        <div class="clear"></div>
+                        
+                    </div>
+                
+                    
+					
+				</div><!-- end of _post-->
+				<div class="post">
+						
+                	<div class="post_top">
+
+                    	<h1>5. MATALA BEACH </h1>
+                    </div>
+                    <div class="post_mid">
+             
+                        <br>
+
+						<p>&#10003; Fully accessible for disabled</p>
+						<p>&#10003; Ramp access to the sea</p>
+						<p>&#10003; Equipment service for people with disabilities</p>
+						<p>&#10003; Wooden ramp that reaches the sea foam, a large wooden desk, a huge umbrella, two overhead loungers </p>
+						<p>&#10003; A special wheelchair for transporting visitors with mobility difficulties in the sea</p>
+					
+
+						<div class="post_second">
+						
+						<img src="images/Παραλίες/5.jpg" width="604" height="453"/>
+						</div>
+                        <div class="clear"></div>
+                        
+                    </div>
+                
+                    
+					
+				</div><!-- end of _post-->
+                
+            </div><!-- end of left section-->
+            
+   
+                
+            
+           
+            
+        </div><!-- end of container-->
+	</div><!-- end of background middle-->
+  
+    <div id="bottom_panel">
+    	<div id="bottom_section">
+        	<div class="bottom_section_box">
+            	<div class="top">
+                  Useful Links</div>
+                <div class="body">
+                    <ul>
+                    
+                    	<li><a href="http://amea-blog.blogspot.gr/" target="_blank">RIGHTS AND BENEFITS DISABLED</a></li>
+                        <li><a href="http://nomameaira.blogspot.gr/" target="_parent">CLUB DISABLED IRAKLEIOU</a></li>
+                        <li><a href="http://www.newsitamea.gr/category/%CE%B1%CE%BC%CE%B5%CE%B1-news/" target="_parent">DISABLED NEWS</a></li>
+                        
+                    	<li><a href="http://www.ameagreek.gr/" target="_parent">AMEAGREEK.GR</a></li>
+                        <li><a href="http://www.healthpages.gr/portal/page/portal/1535/Fullstory?ArticleID=625" target="_parent">EMERGENCY PHONE NUMBERS</a></li>
+                        <li><a href="http://www.heraklion.gr/ourplace/useful-phones/useful-phones.html" target="_parent">USEFUL NUMBERS HERAKLION</a></li>
+                  
+                    </ul>
+                </div>
+            </div>
+       
+            <div style="float:right;" class="bottom_section_box">
+            	<div class="top">License EL/LAK</div>
+                <div class="body">
+                    <a rel="license" >The project <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">TOURISM AND DISABILITIES</span> available under <br><a href="http://creativecommons.org/licenses/by/4.0/"></a><a rel="license" href="http://creativecommons.org/licenses/by/4.0/">License Creative Commons 4.0<br/></a><br><img alt="License Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/>	
+                </div>
+            </div>
+        </div>
+
+    </div>
+	<div id="footer_bottom">
+<h4>copyright © 2014 Specifications for facilitating access for the DISABLED </h4>
+</div>
+
+</body>
+
+</html>

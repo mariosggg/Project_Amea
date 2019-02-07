@@ -1,0 +1,376 @@
+
+
+<html lang="el-GR">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Τουρισμός ΚΑΙ ΑμεΑ</title>
+		<script src="js/top1.js"></script>
+	   <script src="js/top2.js"></script>
+	   
+  
+
+   
+
+<meta name="description" content="Welcome to Heraklion">
+		<meta name="keywords" content="html, javascript, css">
+
+		<link rel="shortcut icon" href="images/favicon.ico">
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+$(document).ready(function () {
+
+	//min font size
+	var min=16; 	
+
+	//max font size
+	var max=24;	
+	
+	//grab the default font size
+	var reset = $('p').css('fontSize'); 
+	
+	//font resize these elements
+	var elm = $('p, h2, .post_mid, h4, #bottom_panel, .top, .bottom_section_box .body li');  
+	
+	//set the default font size and remove px from the value
+	var size = str_replace(reset, 'px', ''); 
+	
+	//Increase font size
+	$('a.fontSizePlus').click(function() {
+		
+		//if the font size is lower or equal than the max value
+		if (size<=max) {
+			
+			//increase the size
+			size++;
+			
+			//set the font size
+			elm.css({'fontSize' : size});
+		}
+		
+		//cancel a click event
+		return false;	
+		
+	});
+
+	$('a.fontSizeMinus').click(function() {
+
+		//if the font size is greater or equal than min value
+		if (size>=min) {
+			
+			//decrease the size
+			size--;
+			
+			//set the font size
+			elm.css({'fontSize' : size});
+		}
+		
+		//cancel a click event
+		return false;	
+		
+	});
+	
+	//Reset the font size
+	$('a.fontReset').click(function () {
+		
+		//set the default font size	
+		 elm.css({'fontSize' : reset});		
+	});
+		
+});
+
+//A string replace function
+function str_replace(haystack, needle, replacement) {
+	var temp = haystack.split(needle);
+	return temp.join(replacement);
+}
+</script>
+
+</head>
+
+<body>
+
+	<div id="section_top">
+    
+    	<div class="container">
+		
+        	<div id="header">
+				<div id="logo_section">   
+		<h4><script>
+		var d=new Date()
+
+		var weekday=new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
+
+		var monthname=new Array("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
+
+		document.write(weekday[d.getDay()] + ", ")
+
+		document.write(d.getDate() + "  ")
+
+		document.write(monthname[d.getMonth()] + " ")
+
+		document.write(d.getFullYear())
+		</script></h4>	<br>
+		<div id="logo_section1"> 		
+		<img src="images/audio.png" alt="Sound" width="42" height="42"&nbsp;&nbsp;/>
+		</div>
+		<h2>&nbsp;&nbsp;Audio texts for the Disabled</h2>
+
+		        	        <h1><a href="index.html" target="_parent">We welcome people</a></h1><br>
+							<br><h1><a href="index.html" target="_parent">with disabilities in Heraklion</a></h1>
+				</div>
+              
+         	</div><!-- end of headder -->
+                
+    		<div id="menu_panel">
+            							
+				
+
+
+    			<div id="menu_section">
+				
+				
+
+									
+										
+					<ul>
+						
+		                <li><a href="en_index.html" >Home</a></li>
+        		        <li><a href="en_hotels.html" >Hotels</a></li>
+		                <li><a href="en_rest.html" >Restaurants</a></li>
+						<li><a href="en_beaches.html" >Beaches</a></li>
+						<li><a href="en_museum.html" >Museums</a></li>
+                		<li><a href="en_contact.php" >Contact</a></li> 
+		            </ul>
+							
+				
+                    
+				</div>
+				
+                
+		    </div> <!-- end of menu -->
+            	
+		</div><!-- end of container-->
+        
+	</div><!-- end of background_section_top-->
+
+    
+		<div id="background_section_middle">
+  
+    	<div class="container">
+
+			<div  id="Fontsize">
+			<a href="#" class="fontSizeMinus"><img src="images/minus.jpg" width="60px;" alt="minus"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="#" class="fontSizePlus"><img src="images/plus.jpg" width="60px;" alt="plus"/>
+			</div>
+
+        	<div id="left_section">
+			<div id="flags"><a href="museum.html"><img src="images/gr.gif" alt="greece" width="60px;"/></a>&nbsp;&nbsp;<a href="en_museum.html"><img src="images/uk.gif" alt="uk" width="60px;"/></a>&nbsp;&nbsp;<a href="fr_museum.html"><img src="images/fr.gif" alt="fr" width="60px;"/></a>&nbsp;&nbsp;</div>
+                 <br><br><br>
+			<div id="change">
+			Change Colors
+			</div>
+	<div id="flags2">
+<form>
+<select name="menu" style= "background-color: #ccff00;">
+<option value="index.html">Default colors</option>
+<option value="backgrounds/black_green/index.html">Black Green</option>
+<option value="backgrounds/black_orange/index.html">Black Orange</option>
+<option value="backgrounds/blue_white/index.html">Blue White</option>
+<option value="backgrounds/yellow_black/index.html">Yellow Black</option>
+</select>
+<input style="background-color: #ccff00;" type="button" onClick="location=this.form.menu.options[this.form.menu.selectedIndex].value;" value="Submit">
+</form>
+</div>
+                <div class="post">
+						
+                	<div class="post_top">
+
+                    	<h1>1. ARCHAEOLOGICAL SITE KNOSSOS</h1>
+                    </div>
+                    <div class="post_mid">
+             
+                        <br>
+
+						<p>Knossos is important to the center of the Minoan Civilization seat of King Minos. The site of Knossos palace connected with thrilling legends of the Labyrinth with the Minotaur and of Daedalus and Icarus. The site is accessed by about 20%.</p>
+						<u><p>Accessible path: </u></p><p>&nbsp;&nbsp;&nbsp;&nbsp;You will pass north of the main entrance and directly from Knossos Avenue. The territory of the entrance is paved with non-smooth plates. Moderate to poor access mode. As we enter the main archaeological site, are constructed platforms with flooring synthetic turf. In some places the ground is dirt with incomplete parts cement. </p>
+						<u><p>South Propylaia: </u></p><p>&nbsp;&nbsp;&nbsp;&nbsp;Accessible flush perimeter. The space in front of the murals has levels with stairs inaccessible. </p>
+						<u><p>Central courtyard: </u></p><p>&nbsp;&nbsp;&nbsp;&nbsp;Accessible but the ground of dirt and gravel. </p>
+						<u><p>East Wing: </u></p><p>&nbsp;&nbsp;&nbsp;&nbsp;Moderate accessible route is through ramps from the central courtyard with steep slopes interspersed with small steps and abnormal laneways. </p>
+						<br><p>The<u>North Entrance </u> and the path that is completely inaccessible.</p>
+						<p>There is a specially designed WC which is locked. Good to get a phone before arriving to be sure that you will find your way to the open.</p>
+						
+						<h3><i>Knossos, Heraklion <br><br>Phone Number: 2810-231940</h3></i>
+	
+                        <b><u>Links:<b></u>
+						<a href="http://www.heraklion.gr/ourplace/knossos/knossos.html" target="_blank">http://www.heraklion.gr/ourplace/knossos/knossos.html</a><br/>
+						<div class="post_second">
+						<img src="images/Μουσεία/1.jpg" width="604" height="453" />
+						</div>
+                        <div class="clear"></div>
+                        
+                    </div>
+                
+                    
+					
+				</div><!-- end of _post-->
+				
+				       <div class="post">
+						
+                	<div class="post_top">
+
+                    	<h1>2. MUSEUM OF TRADITIONAL LIFE & <br></br> POPULAR CULTURE CRETE "LYCHNOSTATIS"</h1>
+                    </div>
+                    <div class="post_mid">
+             
+                        <br></br><br>
+						<p>A museum worth visiting. The museum because of the many outdoor spaces, is open to visitors during the period from April 1 to October 31.</p>
+						<u><p>Access:</u></p><p>&nbsp;&nbsp;&nbsp;&nbsp;The restaurant, cafe, outdoor spaces and exterior exhibits, botanical gardens are accessible but the ground in several places is not smooth and may need some help. The interiors are not accessible.</p>
+						<u><p>Visually impaired: </u></p><p>&nbsp;&nbsp;&nbsp;&nbsp;report has been blind sculptor Peter Roukoutakis entitled "Fotera darkness" and a guide to writing Braille. Can palpation of exhibits by individuals sighted, (it is good to know before your visit). There is audio guide system for blind people.</p>
+						<h3><i>Ηarbour of Chersonissos, Heraklion<br><br>Phone number: 28970 23660</h3></i>
+	
+                        <b><u>Links:<b></u>
+						<a href="http://www.lychnostatis.gr/  " target="_blank">http://www.lychnostatis.gr/</a><br/>
+						<div class="post_second">
+						
+						<img src="images/Μουσεία/2.jpg" width="604" height="453" />
+						</div>
+                        <div class="clear"></div>
+                        
+                    </div>
+                
+                    
+					
+				</div><!-- end of _post-->
+				
+				       <div class="post">
+						
+                	<div class="post_top">
+
+                    	<h1>3. MUSEUM OF NATURAL HISTORY OF CRETE</h1>
+                    </div>
+                    <div class="post_mid">
+             
+                        <br><br><br>
+
+						<p>The Natural History Museum of Crete operates within the University of Crete. It is an interesting museum, which is fully accessible indoors. For your entrance stairs there and intend to make entrance ramps.</p>
+						<u><p>For visually impaired: </u></p><p>&nbsp;&nbsp;&nbsp;&nbsp;There are some toys and educational materials in the form of relief and games with sound. </p>
+						<p>Studies and other educational programs for different types of disability.</p>
+						<h3><i>Sophocles Venizelos, Heraklion Crete<br><br>Phone number: 2810-282740</h3></i>
+	
+                        <b><u>Links:<b></u>
+						<a href="http://www.nhmc.uop.gr/discovery" target="_blank">http://www.nhmc.uop.gr/discovery</a><br/>
+						<div class="post_second">
+						
+						<img src="images/Μουσεία/3.jpg" width="604" height="453" />
+						</div>
+                        <div class="clear"></div>
+                        
+                    </div>
+                
+                    
+					
+				</div><!-- end of _post-->
+				  <div class="post">
+						
+                	<div class="post_top">
+
+                    	<h1>4. CretAquarium</h1>
+                    </div>
+                    <div class="post_mid">
+             
+                        <br>
+
+						<p>A dive in the Mediterranean marine world awaits you at CretAquarium. A site worth visiting. All areas of the Aquarium is completely accessible to people with mobility problems. It has one special person vehicle parking with disabilities and 3 specially adapted WC. </p>
+						<p>The routes are very good standard. An organized tour auditory system in 5 languages. The Aquarium also works office with the necessary equipment.</p>
+						
+						<h3><i>Old airbase Gouves, Heraklion<br><br>Phone number: 2810-337788 	</h3></i>
+	
+                        <b><u>Links:<b></u>
+						<a href="http://www.cretaquarium.gr/" target="_blank">http://www.cretaquarium.gr/</a><br/>
+						<div class="post_second">
+						
+						<img src="images/Μουσεία/4.jpg" width="604" height="453" />
+						</div>
+                        <div class="clear"></div>
+                        
+                    </div>
+                
+                    
+					
+				</div><!-- end of _post-->
+				<div class="post">
+						
+                	<div class="post_top">
+
+                    	<h1>5. MUNICIPAL ART GALLERY </h1>
+                    </div>
+                    <div class="post_mid">
+             
+                        <br>
+
+						<p>The Municipal Art Gallery is housed in one of the most historic buildings in town. In the area occasionally hosts various events and exhibitions on a permanent basis (for now), displays works of Thomas Fanouraki, Georgios Georgiadis, Lefteris Kanakaki and Aristodemos Papadakis. It is accessible to people with disabilities. It has a special WC in the yard.</p>
+						<h3><i>Lions Square, Heraklion<br><br>Phone number: 2810-399228 </h3></i>
+	
+                        <b><u>Links:<b></u>
+						<a href="https://www.heraklion.gr/vikelaia/photo/photo-pinakothiki.html" target="_blank">https://www.heraklion.gr/vikelaia/photo/photo-pinakothiki.html</a><br/>
+						<div class="post_second">
+						
+						<img src="images/Μουσεία/5.jpg" width="604" height="453"/>
+						</div>
+                        <div class="clear"></div>
+                        
+                    </div>
+                
+                    
+					
+				</div><!-- end of _post-->
+                
+            </div><!-- end of left section-->
+            
+   
+                
+            
+           
+            
+        </div><!-- end of container-->
+	</div><!-- end of background middle-->
+  
+    <div id="bottom_panel">
+    	<div id="bottom_section">
+        	<div class="bottom_section_box">
+            	<div class="top">
+                  Useful Links</div>
+                <div class="body">
+                    <ul>
+                    
+                    	<li><a href="http://amea-blog.blogspot.gr/" target="_blank">RIGHTS AND BENEFITS DISABLED</a></li>
+                        <li><a href="http://nomameaira.blogspot.gr/" target="_parent">CLUB DISABLED IRAKLEIOU</a></li>
+                        <li><a href="http://www.newsitamea.gr/category/%CE%B1%CE%BC%CE%B5%CE%B1-news/" target="_parent">DISABLED NEWS</a></li>
+                        
+                    	<li><a href="http://www.ameagreek.gr/" target="_parent">AMEAGREEK.GR</a></li>
+                        <li><a href="http://www.healthpages.gr/portal/page/portal/1535/Fullstory?ArticleID=625" target="_parent">EMERGENCY PHONE NUMBERS</a></li>
+                        <li><a href="http://www.heraklion.gr/ourplace/useful-phones/useful-phones.html" target="_parent">USEFUL NUMBERS HERAKLION</a></li>
+                  
+                    </ul>
+                </div>
+            </div>
+       
+            <div style="float:right;" class="bottom_section_box">
+            	<div class="top">License EL/LAK</div>
+                <div class="body">
+                    <a rel="license" >The project <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">TOURISM AND DISABILITIES</span> available under <br><a href="http://creativecommons.org/licenses/by/4.0/"></a><a rel="license" href="http://creativecommons.org/licenses/by/4.0/">License Creative Commons 4.0<br/></a><br><img alt="License Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/>	
+                </div>
+            </div>
+        </div>
+
+    </div>
+	<div id="footer_bottom">
+<h4>copyright © 2014 Specifications for facilitating access for the DISABLED </h4>
+</div>
+
+</body>
+
+</html>
