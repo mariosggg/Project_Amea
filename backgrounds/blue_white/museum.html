@@ -1,0 +1,428 @@
+
+
+<html lang="el-GR">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+		<title>Τουρισμός ΚΑΙ ΑμεΑ</title>
+		<script src="js/top1.js"></script>
+	   <script src="js/top2.js"></script>
+	   <script>
+	   var Arxikh = new Audio();
+	   Arxikh.src = "../../sounds/Arxikh.mp4";
+	   var hotels = new Audio();
+	   hotels.src = "../../sounds/hotels.mp4";
+	   var restaurant = new Audio();
+	   restaurant.src = "../../sounds/restaurant.mp4";
+	   var beaches = new Audio();
+	   beaches.src = "../../sounds/beaches.mp4";
+	   var museum = new Audio();
+	   museum.src = "../../sounds/museum.mp4";
+	   var contact = new Audio();
+	   contact.src = "../../sounds/contact.mp4";
+	   </script>
+  <script type="text/javascript">
+$(document).ready(function () {
+
+	//min font size
+	var min=16; 	
+
+	//max font size
+	var max=24;	
+	
+	//grab the default font size
+	var reset = $('p').css('fontSize'); 
+	
+	//font resize these elements
+	var elm = $('p, h2, .post_mid, h4, #bottom_panel, .top, .bottom_section_box .body li');  
+	
+	//set the default font size and remove px from the value
+	var size = str_replace(reset, 'px', ''); 
+	
+	//Increase font size
+	$('a.fontSizePlus').click(function() {
+		
+		//if the font size is lower or equal than the max value
+		if (size<=max) {
+			
+			//increase the size
+			size++;
+			
+			//set the font size
+			elm.css({'fontSize' : size});
+		}
+		
+		//cancel a click event
+		return false;	
+		
+	});
+
+	$('a.fontSizeMinus').click(function() {
+
+		//if the font size is greater or equal than min value
+		if (size>=min) {
+			
+			//decrease the size
+			size--;
+			
+			//set the font size
+			elm.css({'fontSize' : size});
+		}
+		
+		//cancel a click event
+		return false;	
+		
+	});
+	
+	//Reset the font size
+	$('a.fontReset').click(function () {
+		
+		//set the default font size	
+		 elm.css({'fontSize' : reset});		
+	});
+		
+});
+
+//A string replace function
+function str_replace(haystack, needle, replacement) {
+	var temp = haystack.split(needle);
+	return temp.join(replacement);
+}
+</script>
+
+   
+
+<meta name="description" content="Welcome to Heraklion">
+		<meta name="keywords" content="html, javascript, css">
+
+		<link rel="shortcut icon" href="images/favicon.ico">
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+	<div id="section_top">
+    
+    	<div class="container">
+		
+        	<div id="header">
+				<div id="logo_section">   
+		<h4><script>
+		var d=new Date()
+
+		var weekday=new Array("Κυριακή", "Δευτέρα", "Τρίτη", "Τετάρτη", "Πέμπτη", "Παρασκευή", "Σάββατο")
+
+		var monthname=new Array("Ιαν", "Φεβ", "Μαρ", "Απρ", "Μαι", "Ιουν", "Ιουλ", "Αυγ", "Σεπ", "Οκτ", "Νοε", "Δεκ")
+
+		document.write(weekday[d.getDay()] + ", ")
+
+		document.write(d.getDate() + "  ")
+
+		document.write(monthname[d.getMonth()] + " ")
+
+		document.write(d.getFullYear())
+		</script></h4>	<br>
+		<div id="logo_section1"> 		
+		<img src="images/audio.png" alt="Sound" width="42" height="42"&nbsp;&nbsp;/>
+		</div>
+		<h2>&nbsp;&nbsp;Ηχητικά Κείμενα για τα ΑμεΑ</h2>
+
+		        	        <h1><a href="index.html" target="_parent">Καλωσορίζουμε τα ΑμεΑ</a></h1><br>
+							<br><h1><a href="index.html" target="_parent">στο Ηράκλειο</a></h1>
+				</div>
+              
+         	</div><!-- end of headder -->
+                
+    		<div id="menu_panel">
+            							
+				
+
+
+    			<div id="menu_section">
+				
+				
+
+									
+										
+					<ul>
+						
+		                <li><a href="index.html" onmouseover="Arxikh.play()">Αρχική</a></li>
+        		        <li><a href="hotels.html" onmouseover="hotels.play()">Ξενοδοχεία</a></li>
+		                <li><a href="rest.html" onmouseover="restaurant.play()">Εστιατόρια</a></li>
+						<li><a href="beaches.html" onmouseover="beaches.play()">Παραλίες</a></li>
+						<li><a href="museum.html" onmouseover="museum.play()">Μουσεία</a></li>
+                		<li><a href="contact.php" onmouseover="contact.play()">Επικοινωνία</a></li> 
+		            </ul>
+							
+				
+                    
+				</div>
+				
+                
+		    </div> <!-- end of menu -->
+            	
+		</div><!-- end of container-->
+        
+	</div><!-- end of background_section_top-->
+
+    
+		<div id="background_section_middle">
+  
+    	<div class="container">
+
+			<div class="container">
+			<div  id="Fontsize">
+			<a href="#" class="fontSizeMinus"><img src="images/minus.jpg" width="60px;" alt="minus"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="#" class="fontSizePlus"><img src="images/plus.jpg" width="60px;" alt="plus"/>
+			</div>
+
+        	<div id="left_section">
+			<div id="flags"><a href="museum.html"><img src="images/gr.gif" alt="greece" width="60px;"/></a>&nbsp;&nbsp;<a href="en_museum.html"><img src="images/uk.gif" alt="uk" width="60px;"/></a>&nbsp;&nbsp;<a href="fr_museum.html"><img src="images/fr.gif" alt="fr" width="60px;"/></a>&nbsp;&nbsp;</div>
+                 <br><br><br>
+			<div id="change">
+			Αλλαγή Χρωμάτων
+			</div>
+	<div id="flags2">
+<form>
+<select name="menu" style= "background-color: #ccff00;">
+<option value="../../index.html">Αρχικά Χρώματα</option>
+<option value="index.html">Μαύρο Πράσινο</option>
+<option value="../black_orange/index.html">Μαύρο Πορτοκαλί</option>
+<option value="../blue_white/index.html">Μπλέ Άσπρο</option>
+<option value="../yellow_black/index.html">Κίτρινο Μαύρο</option>
+</select>
+<input style="background-color: #ccff00;" type="button" onClick="location=this.form.menu.options[this.form.menu.selectedIndex].value;" value="Υποβολή">
+</form>
+</div>
+                <div class="post">
+						
+                	<div class="post_top">
+
+                    	<h1>1. ΑΡΧΑΙΟΛΟΓΙΚΟΣ ΧΩΡΟΣ ΚΝΩΣΟΥ</h1>
+                    </div>
+                    <div class="post_mid">
+             
+                        <br>
+
+						<p>Η Κνωσός είναι τo σημαντικότερο κέντρο του Μινωικού Πολιτισμού έδρα του βασιλιά Μίνωα. Με το χώρο του ανακτόρου της Κνωσού συνδέονται οι συναρπαστικοί μύθοι του Λαβύρινθου με τον Μινώταυρο και του Δαίδαλου με τον Ίκαρο. Ο αρχαιολογικός χώρος είναι προσβάσιμος κατά το 20 % περίπου.</p>
+						<u><p>Προσβάσιμη διαδρομή:</u></p><p>&nbsp;&nbsp;&nbsp;&nbsp;Θα περάσετε από βόρεια της κυρίας εισόδου και απ΄ ευθείας από την Λ. Κνωσού. Το έδαφος της εισόδου είναι πλακόστρωτο με μη λείες πλάκες. Μέτρια έως κακή κατάσταση πρόσβασης. Καθώς μπαίνουμε στο κυρίως αρχαιολογικό χώρο, υπάρχουν κατασκευασμένες εξέδρες με δάπεδο από συνθετικό ταρτάν. Σε ορισμένα σημεία το έδαφος είναι χωματόδρομος με ατελή τμήματα τσιμέντου.</p>
+						<u><p>Νότια Προπύλαια:</u></p><p>&nbsp;&nbsp;&nbsp;&nbsp;Προσβάσιμη ισόπεδα περιμετρικά. Ο χώρος μπροστά από τις τοιχογραφίες έχει επίπεδα με σκαλοπάτια μη προσβάσιμα.</p>
+						<u><p>Κεντρική αυλή:</u></p><p>&nbsp;&nbsp;&nbsp;&nbsp;Προσβάσιμη αλλά έδαφος από χώμα και χαλίκι.</p>
+						<u><p>Ανατολική Πτέρυγα:</u></p><p>&nbsp;&nbsp;&nbsp;&nbsp;Μέτρια προσβάσιμη, έχει διαδρομή με ράμπες από την κεντρική αυλή με απότομες κλίσεις που διακόπτονται από μικρά σκαλοπάτια και μη ομαλά χωμάτινα μονοπάτια.</p>
+						<br><p>Η <u>Βόρεια είσοδος</u> και η διαδρομή που ακολουθεί είναι πλήρως απροσπέλαστη.</p>
+						<p>Υπάρχει ειδικά διαμορφωμένο WC το οποίο είναι κλειδωμένο. Καλό είναι να πάρετε ένα τηλέφωνο πριν φτάσετε για να είστε σίγουροι ότι θα βρεθεί τρόπος να σας την ανοίξουν.</p>
+						
+						<h3><i>Κνωσός, Ηράκλειο<br><br>Τηλ. 2810-231940</h3></i>
+	<center>					                    	          						<h1>Ηχητικό Κείμενο </h1><br>
+<audio src="../../sounds/Μουσεία/1.mp4" controls>	
+	<embed 
+	src="../../sounds/Μουσεία/1.mp4"
+	width="400"
+	height="90"
+	loop="false"
+	autostart="false" />
+</center></audio> <br><br>
+                        <b><u>Links:<b></u>
+						<a href="http://www.heraklion.gr/ourplace/knossos/knossos.html" target="_blank">http://www.heraklion.gr/ourplace/knossos/knossos.html</a><br/>
+						<div class="post_second">
+						<img src="images/Μουσεία/1.jpg" width="604" height="453" />
+						</div>
+                        <div class="clear"></div>
+                        
+                    </div>
+                
+                    
+					
+				</div><!-- end of _post-->
+				
+				       <div class="post">
+						
+                	<div class="post_top">
+
+                    	<h1>2. ΜΟΥΣΕΙΟ ΠΑΡΑΔΟΣΙΑΚΗΣ ΖΩΗΣ & ΛΑΙΚΟΥ<br></br> ΠΟΛΙΤΙΣΜΟΥ ΚΡΗΤΗΣ “ΛΥΧΝΟΣΤΑΤΗΣ”</h1>
+                    </div>
+                    <div class="post_mid">
+             
+                        <br></br><br>
+						<p>Ένα μουσείο που αξίζει να επισκεφτείτε. Το μουσείο, λόγω των πολλών υπαίθριων χώρων του, είναι επισκέψιμο κατά την περίοδο από 1 Απριλίου έως 31 Οκτωβρίου.</p>
+						<u><p>Πρόσβαση:</u></p><p>&nbsp;&nbsp;&nbsp;&nbsp;Το εστιατόριο, καφενείο, οι εξωτερικοί χώροι και τα εξωτερικά εκθέματα, βοτανικοί κήποι είναι προσβάσιμα αλλά το έδαφος σε αρκετά σημεία δεν είναι ομαλό και πιθανόν να χρειαστείτε βοήθεια. Οι εσωτερικοί χώροι δεν είναι προσβάσιμοι.</p>
+						<u><p>Άτομα με προβλήματα όρασης:</u></p><p>&nbsp;&nbsp;&nbsp;&nbsp;Έχει γίνει έκθεση του τυφλού γλύπτη Πέτρου Ρουκουτάκη με τίτλο : “Φωτερά σκοτάδια” και υπάρχει εγχειρίδιο σε γραφή Braille. Είναι δυνατή η ψηλάφηση των εκθεμάτων από άτομα με προβλήματα όρασης, (καλό είναι να ενημερώσετε πριν την επίσκεψη σας). Υπάρχει σύστημα ακουστικής ξενάγησης για τα τυφλά άτομα.</p>
+						<h3><i>Λιμένας Χερσονήσου, Ηράκλειο<br><br>Τηλ. 28970 23660</h3></i>
+	<center>					                    	          						<h1>Ηχητικό Κείμενο </h1><br>
+<audio src="../../sounds/Μουσεία/2.mp4" controls>	
+	<embed 
+	src="../../sounds/Μουσεία/2.mp4"
+	width="400"
+	height="90"
+	loop="false"
+	autostart="false" />
+</center></audio> <br><br>
+                        <b><u>Links:<b></u>
+						<a href="http://www.lychnostatis.gr/  " target="_blank">http://www.lychnostatis.gr/</a><br/>
+						<div class="post_second">
+						
+						<img src="images/Μουσεία/2.jpg" width="604" height="453" />
+						</div>
+                        <div class="clear"></div>
+                        
+                    </div>
+                
+                    
+					
+				</div><!-- end of _post-->
+				
+				       <div class="post">
+						
+                	<div class="post_top">
+
+                    	<h1>3. ΜΟΥΣΕΙΟ ΦΥΣΙΚΗΣ ΙΣΤΟΡΙΑΣ ΚΡΗΤΗΣ<br><br> “ΕΡΕΥΝΟΤΟΠΟΣ”</h1>
+                    </div>
+                    <div class="post_mid">
+             
+                        <br><br><br>
+
+						<p>Το Μουσείο Φυσικής Ιστορίας Κρήτης λειτουργεί μέσα στα πλαίσια του Πανεπιστημίου Κρήτης. Είναι ένα ενδιαφέρον μουσείο, το οποίο είναι πλήρως προσβάσιμο στους εσωτερικούς χώρους. Για την είσοδό σας υπάρχουν σκαλιά και σκοπεύουν να φτιάξουν ράμπες εισόδου.</p>
+						<u><p>Για άτομα με προβλήματα όρασης:</u></p><p>&nbsp;&nbsp;&nbsp;&nbsp;Υπάρχουν κάποια παιχνίδια και εκπαιδευτικό υλικό σε ανάγλυφη μορφή καθώς και παιχνίδια με ήχο.</p>
+						<p>Μελετούν και άλλα εκπαιδευτικά προγράμματα για διαφορετικές μορφές αναπηρίας.</p>
+						<h3><i>Λ. Σοφοκλή Βενιζέλου, Ηράκλειο Κρήτης<br><br>Τηλ. 2810-282740</h3></i>
+	<center>					                    	          						<h1>Ηχητικό Κείμενο </h1><br>
+<audio src="../../sounds/Μουσεία/3.mp4" controls>	
+	<embed 
+	src="../../sounds/Μουσεία/3.mp4"
+	width="400"
+	height="90"
+	loop="false"
+	autostart="false" />
+</center></audio> <br><br>
+                        <b><u>Links:<b></u>
+						<a href="http://www.nhmc.uop.gr/discovery" target="_blank">http://www.nhmc.uop.gr/discovery</a><br/>
+						<div class="post_second">
+						
+						<img src="images/Μουσεία/3.jpg" width="604" height="453" />
+						</div>
+                        <div class="clear"></div>
+                        
+                    </div>
+                
+                    
+					
+				</div><!-- end of _post-->
+				  <div class="post">
+						
+                	<div class="post_top">
+
+                    	<h1>4. CretAquarium</h1>
+                    </div>
+                    <div class="post_mid">
+             
+                        <br>
+
+						<p>Μια κατάδυση στο Μεσογειακό θαλάσσιο κόσμο σας περιμένει στο CretAquarium. Ένας χώρος που αξίζει να επισκεφτείτε. Όλοι οι χώροι του Ενυδρείου είναι απολύτως προσβάσιμοι σε άτομα με κινητικά προβλήματα. Έχει 1 ειδική θέση στάθμευσης οχήματος ατόμου με αναπηρία και 3 ειδικά διαμορφωμένα WC.</p>
+						<p>Οι διαδρομές έχουν πολύ καλές προδιαγραφές. Υπάρχει ακουστικό σύστημα ξενάγησης σε 5 γλώσσες.  Στο Ενυδρείο λειτουργεί επίσης ιατρείο με τον απαραίτητο εξοπλισμό.</p>
+						<h3><i>Παλιά αεροπορική βάση Γουρνών Ηρακλείου, Ηράκλειο<br><br>Τηλ. 2810-337788</h3></i>
+	<center>					                    	          						<h1>Ηχητικό Κείμενο </h1><br>
+<audio src="../../sounds/Μουσεία/4.mp4" controls>	
+	<embed 
+	src="../../sounds/Μουσεία/4.mp4"
+	width="400"
+	height="90"
+	loop="false"
+	autostart="false" />
+</center></audio> <br><br>
+                        <b><u>Links:<b></u>
+						<a href="http://www.cretaquarium.gr/" target="_blank">http://www.cretaquarium.gr/</a><br/>
+						<div class="post_second">
+						
+						<img src="images/Μουσεία/4.jpg" width="604" height="453" />
+						</div>
+                        <div class="clear"></div>
+                        
+                    </div>
+                
+                    
+					
+				</div><!-- end of _post-->
+				<div class="post">
+						
+                	<div class="post_top">
+
+                    	<h1>5. Δημοτική Πινακοθήκη Ηρακλείου</h1>
+                    </div>
+                    <div class="post_mid">
+             
+                        <br>
+
+						<p>Η Δημοτική Πινακοθήκη Ηρακλείου φιλοξενείται σε ένα από τα πιο ιστορικά κτήρια της πόλης. Στο χώρο φιλοξενούνται κατά καιρούς διάφορες εκδηλώσεις και εκθέσεις αλλά σε μόνιμη βάση (προς το παρόν), εκτίθενται έργα των Θωμά Φανουράκη, Γεωργίου Γεωργιάδη, Λευτέρη Κανακάκη και Αριστόδημου Παπαδάκη. Είναι προσβάσιμο σε άτομα με αναπηρία. Διαθέτει  ειδικό WC στην αυλή.</p>
+						<h3><i>Πλατεία Λιονταριών, Ηράκλειο<br><br>Τηλ.2810-399228</h3></i>
+	<center>					                    	          						<h1>Ηχητικό Κείμενο </h1><br>
+<audio src="../../sounds/Μουσεία/5.mp4" controls>	
+	<embed 
+	src="../../sounds/Μουσεία/5.mp4"
+	width="400"
+	height="90"
+	loop="false"
+	autostart="false" />
+</center></audio> <br><br>
+                        <b><u>Links:<b></u>
+						<a href="https://www.heraklion.gr/vikelaia/photo/photo-pinakothiki.html" target="_blank">https://www.heraklion.gr/vikelaia/photo/photo-pinakothiki.html</a><br/>
+						<div class="post_second">
+						
+						<img src="images/Μουσεία/5.jpg" width="604" height="453"/>
+						</div>
+                        <div class="clear"></div>
+                        
+                    </div>
+                
+                    
+					
+				</div><!-- end of _post-->
+                
+            </div><!-- end of left section-->
+            
+   
+                
+            
+           
+            
+        </div><!-- end of container-->
+	</div><!-- end of background middle-->
+  
+    <div id="bottom_panel">
+    	<div id="bottom_section">
+        	<div class="bottom_section_box">
+            	<div class="top">
+                   Χρήσιμα links</div>
+                <div class="body">
+                   <ul>
+                    
+                    	<li><a href="http://amea-blog.blogspot.gr/" target="_blank">ΔΙΚΑΙΩΜΑΤΑ ΚΑΙ ΠΑΡΟΧΕΣ ΑΜΕΑ</a></li>
+                        <li><a href="http://nomameaira.blogspot.gr/" target="_parent">ΣΩΜΑΤΕΙΟ ΑΜΕΑ Ν. ΗΡΑΚΛΕΙΟΥ</a></li>
+                        <li><a href="http://www.newsitamea.gr/category/%CE%B1%CE%BC%CE%B5%CE%B1-news/" target="_parent">ΑΜΕΑ NEWS</a></li>
+                        
+                    	<li><a href="http://www.ameagreek.gr/" target="_parent">AMEAGREEK.GR</a></li>
+                        <li><a href="http://www.healthpages.gr/portal/page/portal/1535/Fullstory?ArticleID=625" target="_parent">ΤΗΛΕΦΩΝΑ ΕΚΤΑΚΤΗΣ ΑΝΑΓΚΗΣ</a></li>
+                        <li><a href="http://www.heraklion.gr/ourplace/useful-phones/useful-phones.html" target="_parent">ΧΡΗΣΙΜΑ ΤΗΛΕΦΩΝΑ ΗΡΑΚΛΕΙΟΥ</a></li>
+                  
+                    </ul>
+                </div>
+            </div>
+       
+            <div style="float:right;" class="bottom_section_box">
+            	<div class="top">Άδεια ΕΛ/ΛΑΚ</div>
+                <div class="body">
+                    <a rel="license" >Το έργο <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">ΤΟΥΡΙΣΜΟΣ ΚΑΙ ΑμεΑ</span> διατίθεται υπό την <br><a href="http://creativecommons.org/licenses/by/4.0/"></a><a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Άδεια Creative Commons 4.0<br/></a><br><img alt="Άδεια Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/>	
+                </div>
+            </div>
+        </div>
+
+    </div>
+	<div id="footer_bottom">
+<h4>copyright © 2014 Προδιαγραφές για διευκόλυνση πρόσβασης σε ΑμεΑ </h4>
+</div>
+
+</body>
+
+</html>
