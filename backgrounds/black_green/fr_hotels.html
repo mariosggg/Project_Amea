@@ -1,0 +1,371 @@
+
+
+<html lang="el-GR">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Τουρισμός ΚΑΙ ΑμεΑ</title>
+		<script src="js/top1.js"></script>
+	   <script src="js/top2.js"></script>
+  
+
+   
+
+<meta name="description" content="Welcome to Heraklion">
+		<meta name="keywords" content="html, javascript, css">
+
+		<link rel="shortcut icon" href="images/favicon.ico">
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+$(document).ready(function () {
+
+	//min font size
+	var min=16; 	
+
+	//max font size
+	var max=24;	
+	
+	//grab the default font size
+	var reset = $('p').css('fontSize'); 
+	
+	//font resize these elements
+	var elm = $('p, h2, .post_mid, h4, #bottom_panel, .top, .bottom_section_box .body li');  
+	
+	//set the default font size and remove px from the value
+	var size = str_replace(reset, 'px', ''); 
+	
+	//Increase font size
+	$('a.fontSizePlus').click(function() {
+		
+		//if the font size is lower or equal than the max value
+		if (size<=max) {
+			
+			//increase the size
+			size++;
+			
+			//set the font size
+			elm.css({'fontSize' : size});
+		}
+		
+		//cancel a click event
+		return false;	
+		
+	});
+
+	$('a.fontSizeMinus').click(function() {
+
+		//if the font size is greater or equal than min value
+		if (size>=min) {
+			
+			//decrease the size
+			size--;
+			
+			//set the font size
+			elm.css({'fontSize' : size});
+		}
+		
+		//cancel a click event
+		return false;	
+		
+	});
+	
+	//Reset the font size
+	$('a.fontReset').click(function () {
+		
+		//set the default font size	
+		 elm.css({'fontSize' : reset});		
+	});
+		
+});
+
+//A string replace function
+function str_replace(haystack, needle, replacement) {
+	var temp = haystack.split(needle);
+	return temp.join(replacement);
+}
+</script>
+
+</head>
+
+<body>
+
+	<div id="section_top">
+    
+    	<div class="container">
+		
+        	<div id="header">
+				<div id="logo_section">   
+		<h4><script>
+		var d=new Date()
+
+		var weekday=new Array("Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi")
+
+		var monthname=new Array("Jan", "Fιv", "Mars", "Avr", "Mai", "Juin", "Jui", "Aoϋt", "Sep", "Oct", "Nov", "Dιc")
+
+		document.write(weekday[d.getDay()] + ", ")
+
+		document.write(d.getDate() + "  ")
+
+		document.write(monthname[d.getMonth()] + " ")
+
+		document.write(d.getFullYear())
+		</script></h4>	<br>
+		<div id="logo_section1"> 		
+		<img src="images/audio.png" alt="Sound" width="42" height="42"&nbsp;&nbsp;/>
+		</div>
+		<h2>&nbsp;&nbsp;Sons audio pour personnes handicapées</h2>
+
+		        	        <h1><a href="index.html" target="_parent">Nous accueillons les </a></h1><br>
+							<br><h1><a href="index.html" target="_parent">personnes handicapées à Héraklion</a></h1>
+				</div>
+              
+         	</div><!-- end of headder -->
+                
+    		<div id="menu_panel">
+            							
+				
+
+
+    			<div id="menu_section">
+				
+				
+
+									
+										
+					<ul>
+						
+		                <li><a href="fr_index.html">Maison</a></li>
+        		        <li><a href="fr_hotels.html">Hôtels</a></li>
+		                <li><a href="fr_rest.html">Restaurants</a></li>
+						<li><a href="fr_beaches.html">Plages</a></li>
+						<li><a href="fr_museum.html">Musées</a></li>
+                		<li><a href="fr_contact.php">Contact</a></li> 
+		            </ul>
+							
+				
+                    
+				</div>
+				
+                
+		    </div> <!-- end of menu -->
+            	
+		</div><!-- end of container-->
+        
+	</div><!-- end of background_section_top-->
+
+    
+		<div id="background_section_middle">
+  
+    	<div class="container">
+			<div  id="Fontsize">
+			<a href="#" class="fontSizeMinus"><img src="images/minus.jpg" width="60px;" alt="minus"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="#" class="fontSizePlus"><img src="images/plus.jpg" width="60px;" alt="plus"/>
+			</div>
+
+
+        	<div id="left_section">
+			<div id="flags"><a href="hotels.html"><img src="images/gr.gif" alt="greece" width="60px;"/></a>&nbsp;&nbsp;<a href="en_hotels.html"><img src="images/uk.gif" alt="uk" width="60px;"/></a>&nbsp;&nbsp;<a href="fr_hotels.html"><img src="images/fr.gif" alt="fr" width="60px;"/></a>&nbsp;&nbsp;</div>
+		<br><br><br>
+			<div id="change">
+			Changer les couleurs
+			</div>
+	<div id="flags2">
+<form>
+<select name="menu" style= "background-color: #ccff00;">
+<option value="../../index.html">Couleurs primaires</option>
+<option value="fr_index.html">Noir Vert</option>
+<option value="../black_orange/fr_index.html">Noir Orange</option>
+<option value="../blue_white/fr_index.html">Bleu Blanc</option>
+<option value="../yellow_black/fr_index.html">Jaune Noir</option>
+</select>
+<input style="background-color: #ccff00;" type="button" onClick="location=this.form.menu.options[this.form.menu.selectedIndex].value;" value="Submit">
+</form>
+</div>
+                <div class="post">
+						
+                	<div class="post_top">
+
+                    	<h1>1. ASTORIA CAPSIS HOTEL</h1>
+                    </div>
+                    <div class="post_mid">
+             
+                        <br>
+
+						<p>Hôtel 4 étoiles au cœur d'Héraklion à Liberty Square.</p>
+						<p>Il dispose de trois chambres spécialement adaptées au 4ème étage, adapté pour les fauteuils roulants largeur de moins de 75cm. A l'entrée, vous trouverez un 21m étape. mais l'hôtel dispose d'une rampe mobile. Aura du mal à la hauteur du comptoir de la réception. WC chambre: il a des poignées et douche sans étape.</p>
+						<p>L'hôtel dispose de deux salles de réunionaccessibles (niveau B). Pour le snack-bar devra la rampe portable. Il n'y a pas deplaces de stationnement, mais coopèrent avec parking extérieur.</p>
+						<p>Le client quitte IX del'entrée et ceux en stationnement.</p>
+						<h3><i>Liberty Square 11, Heraklion Crete<br><br>Numéro de téléphone: 2810-343080 / 2</h3></i>
+ <br><br>
+                        <b><u>Links:<b></u>
+						<a href="http://www.capsishotels.gr/el/index.html" target="_blank">http://www.capsishotels.gr/el/index.html</a><br/>
+						<div class="post_second">
+						<a href="http://www.astoriacapsis.gr/el/index.html" target="_blank">http://www.astoriacapsis.gr/el/index.html</a>
+						<img src="images/Ξενοδοχεία/1.jpg" width="604" height="453" />
+						</div>
+                        <div class="clear"></div>
+                        
+                    </div>
+                
+                    
+					
+				</div><!-- end of _post-->
+				
+				       <div class="post">
+						
+                	<div class="post_top">
+
+                    	<h1>2. APOLLONIA BEACH RESORT & SPA</h1>
+                    </div>
+                    <div class="post_mid">
+             
+                        <br>
+						<p>Hôtel avec un très bon accès, de grands espaces communs, et des rampes dans les différentes sections. Accepte groupe désactivé et aucune expérience pertinente. Dispose de 10 chambres spécialement conçues (8 bungalows et deux dans le bâtiment principal), adapté aux fauteuils roulants largeur inférieure à 79 cm. Ta bungalows sont accessibles par une route pavée. La porte des WC (chambre) ouvrant vers l'intérieur mais il ya suffisamment d'espace libre. La douche a une étape de projection 3cm. Il ya un accès à la plage avec une rampe en bois qui va près de la mer.</p>
+						<p> Installations de l'hôtel: restaurant (dans le jardin), bar, salle de conférence, piscines, plage tous accessibles. Vous trouverez 2 WC partagé spécialement adapté. La première dans le snack-bar de la piscine près de la plage. Le deuxième niveau -1 du bâtiment (porte de l'ascenseur 69cm.). La prudence est nécessaire en petites marbre saillie seuils à l'entrée WC, dans les chambres et quelques rampes sont relativement raide.</p>
+						<p>Près de l'hôtel est les Messogios centre d'hémodialyse. Le Spa est situé dans un bâtiment séparé à travers la rue. Il ya une infrastructure particulière des personnes handicapées dans WC spécialement adaptée, rampes d'accès, le personnel médical-kinésithérapie.</p>
+						<h3><i>Ammoudara Gazi<br><br>Numéro de téléphone: 2810-821624/2810-821602</h3></i>
+ <br><br>
+                        <b><u>Links:<b></u>
+						<a href="http://www.apollonia.gr/" target="_blank">http://www.apollonia.gr/</a><br/>
+						<div class="post_second">
+						
+						<img src="images/Ξενοδοχεία/2.jpg" width="604" height="453" />
+						</div>
+                        <div class="clear"></div>
+                        
+                    </div>
+                
+                    
+					
+				</div><!-- end of _post-->
+				
+				       <div class="post">
+						
+                	<div class="post_top">
+
+                    	<h1>3. HOTEL AGAPI BEACH</h1>
+                    </div>
+                    <div class="post_mid">
+             
+                        <br>
+
+						<p>Situé dans la zone côtière d'Ammoudara. Il ya deux bungalows spécialement adaptés à l'espace externe ouverte (rez de chaussée) à 150 mètres de la zone de réception, accessibles avec quelques petites rampes abruptes.</p>
+						<p>L'hôtel est adapté pour les fauteuils roulants largeur de moins de 77 cm. Chambres WC, douche ont des poignées (non saillante), mais il n'y a pas assez d'espace entre le sanitaire. Il ya des chambres hypoallergéniques. L'hôtel possède un restaurant, piscine, centre de remise en forme tout accessible. Pour le jardin et la piscine aura besoin d'aide (deux petits pas 10cm.).</p>
+						<p>Il est le chemin d'accès de plage pour les bungalows tandis que le centre des congrès est ajusté rampe en trois étapes de l'entrée.</p>
+						<h3><i>N. Stadium, Heraklion<br><br>Numéro de téléphone: 2810-250502</h3></i>
+	       <b><u>Links:<b></u>
+						<a href="http://www.agapibeach.gr" target="_blank">http://www.agapibeach.gr</a><br/>
+						<div class="post_second">
+						
+						<img src="images/Ξενοδοχεία/3.jpg" width="604" height="453" />
+						</div>
+                        <div class="clear"></div>
+                        
+                    </div>
+                
+                    
+					
+				</div><!-- end of _post-->
+				  <div class="post">
+						
+                	<div class="post_top">
+
+                    	<h1>4. MEGARON LUXURY HOTEL</h1>
+                    </div>
+                    <div class="post_mid">
+             
+                        <br>
+
+						<p>Construit en 1925 et classé monument historique, l'hôtel de luxe GDM Megaron est situé dans le centre d'Héraklion, surplombant le port. Il dispose de 2 chambres spécialement adaptées au 1er et 2ème étage. L'hôtel est adapté aux fauteuils roulants largeur inférieure président 79ek.Me entrera l'autre entrée du port (rue Ephèse) en raison de l'entrée principale a des escaliers. La porte des WC (salle) se ouvre vers l'intérieur mais a suffisamment d'espace libre.</p>
+						<p>Il ya des poignées et douche sans étape. Problème se réunira dans le bassin car il est enterré dans l'évidement (seule approche frontale) et l'évier, car il ya des meubles. Installations de l'hôtel: salle de gym, spa, jardin sur le toit, une salle de conférence, un café, un restaurant, mais certains d'entre eux sera difficile parce que vous trouverez les portes de 68 cm et de petits pas. Il ya un WC communal spécialement conçu.</p>
+						<h3><i>D.Mpofor 9 Heraklion<br><br>Numéro de téléphone: 2810-305300</h3></i>
+ <br><br>
+                        <b><u>Links:<b></u>
+						<a href="http://www.gdmmegaron.gr/" target="_blank">http://www.gdmmegaron.gr/</a><br/>
+						<div class="post_second">
+						
+						<img src="images/Ξενοδοχεία/4.jpg" width="604" height="453" />
+						</div>
+                        <div class="clear"></div>
+                        
+                    </div>
+                
+                    
+					
+				</div><!-- end of _post-->
+				<div class="post">
+						
+                	<div class="post_top">
+
+                    	<h1>5. ROYAL MARE VILLAGE</h1>
+                    </div>
+                    <div class="post_mid">
+             
+                        <br>
+
+						<p>Il ya huit chambres adaptées dans le bâtiment principal, 1er étage (de porte d'ascenseur 76 cm). Dans d'autres domaines, il est un excellent accès. L'hôtel dispose d'un bar central avec salon, deux grandes piscines et des dizaines d'autres plus petits, tous facilement accessibles depuis l'extérieur réseau et couloirs rampes.</p>
+						<p>Chambres non-fumeurs et menus diététicienne et spéciaux. Même vous trouverez centre de conférences accessibles et le centre Spa et thalassothérapie accessibles "Thalasso" (autonome), qui sont des programmes de physiothérapie accessibles pour les personnes handicapées (peuvent être accompagnés par leur physiothérapeute).</p>
+						<h3><i>Ηarbour de Chersonissos<br><br>Numéro de téléphone: 28970-27200</h3></i>
+	 <br><br>
+                        <b><u>Links:<b></u>
+						<a href="http://www.aldemarhotels.com" target="_blank"http://www.aldemarhotels.com</a><br/>
+						<div class="post_second">
+						
+						<img src="images/Ξενοδοχεία/5.jpg" width="604" height="453"/>
+						</div>
+                        <div class="clear"></div>
+                        
+                    </div>
+                
+                    
+					
+				</div><!-- end of _post-->
+                
+            </div><!-- end of left section-->
+            
+   
+                
+            
+           
+            
+        </div><!-- end of container-->
+	</div><!-- end of background middle-->
+  
+    <div id="bottom_panel">
+    	<div id="bottom_section">
+        	<div class="bottom_section_box">
+            	<div class="top">
+                  Liens Utiles</div>
+                <div class="body">
+                    <ul>
+                    
+                    	<li><a href="http://amea-blog.blogspot.gr/" target="_blank">DROITS ET AVANTAGES PERSONNES HANDICAPEES</a></li>
+                        <li><a href="http://nomameaira.blogspot.gr/" target="_parent">CORPORATION PERSONNES HANDICAPEES Ν. HERAKLION</a></li>
+                        <li><a href="http://www.newsitamea.gr/category/%CE%B1%CE%BC%CE%B5%CE%B1-news/" target="_parent">PERSONNES HANDICAPEES NOUVELLES</a></li>
+                        
+                    	<li><a href="http://www.ameagreek.gr/" target="_parent">AMEAGREEK.GR</a></li>
+                        <li><a href="http://www.healthpages.gr/portal/page/portal/1535/Fullstory?ArticleID=625" target="_parent">LES NUMEROS DE TELEPHONE D'URGENCE</a></li>
+                        <li><a href="http://www.heraklion.gr/ourplace/useful-phones/useful-phones.html" target="_parent">NUMEROS UTILES HERAKLION</a></li>
+                  
+                    </ul>
+                </div>
+            </div>
+       
+            <div style="float:right;" class="bottom_section_box">
+            	<div class="top">Licence EL/LAK</div>
+                <div class="body">
+                    <a rel="license" >Le projet <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">DE TOURISME ET PERSONNES HANDICAPEES</span> Disponible sous la <br><a href="http://creativecommons.org/licenses/by/4.0/"></a><a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Licence Creative Commons 4.0<br/></a><br><img alt="Άδεια Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/>	
+                </div>
+            </div>
+        </div>
+
+    </div>
+	<div id="footer_bottom">
+<h4>copyright © 2014 Normes pour faciliter l'accès à Personnes Handicapees </h4>
+</div>
+
+</body>
+
+</html>
