@@ -1,3 +1,6 @@
 # Project_Amea
 
-It is estimated that by 2050,66% of the world’s population, will be living in cities.Persons with disabilities
+Persons with disabilities comprise an estimated 15 per cent of the
+world’s population, or one billion people, of whom 80 per cent live in
+developing countries and are overrepresented among those
+living in absolute poverty
