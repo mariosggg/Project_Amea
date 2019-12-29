@@ -1,2 +1,3 @@
 # Project_Amea
-We welcome people with disabilities in Heraklion, Crete
+
+Tourism and Disability:An online platform for people with disabilities
