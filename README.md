@@ -7,9 +7,16 @@ Features
 
 An online platform making our city of Heraklion Crete more accessible for people with Disability.In Thins platform people with Disabilities have easy access in different places in Heraklion Crete.This places includes:
 
-  •	Hotels 
-  •	Restaurants
-  •	Beaches 
-  •	Museums
 
+A tool enabling non-expert users to use and combine of state of the art privacy models
 
+ •	Anonymization privacy models (Fake Data, Replace characters by random letters and numbers, removing information, suppression, generalization, bottom and top coding)
+ 
+ •	Hashing privacy models (md5, crc32, sha512, xxhash64)
+ 
+ •	Encryption privacy models (Des, X-Des, Aes-512, blowfish)
+ 
+ 
+Multiple data analysis visualization paradigms and statistics
+  
+ • 	Pie charts, Bar charts, Area charts, Histograms and Scatter plots 
