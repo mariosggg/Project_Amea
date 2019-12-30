@@ -15,7 +15,7 @@ An online platform making our city of Heraklion Crete more accessible for people
  
  • Museums
 
-Requirements
+Technologies
 
 • Html
 
