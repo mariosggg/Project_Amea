@@ -17,10 +17,10 @@ An online platform making our city of Heraklion Crete more accessible for people
 
 Requirements
 
-• HTML
+• Html
 
-• CSS
+• Css
 
-• JAVASCRIPT
+• Javascript
 
-• PHP
+• Php
