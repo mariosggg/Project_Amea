@@ -7,9 +7,9 @@ Features
 
 An online platform making our city of Heraklion Crete more accessible for people with Disability.In Thins platform people with Disabilities have easy access in different places in Heraklion Crete.This places includes:
 
-•	Hotels 
-•	Restaurants
-•	Beaches 
-•	Museums
+  •	Hotels 
+  •	Restaurants
+  •	Beaches 
+  •	Museums
 
 
