@@ -14,3 +14,13 @@ An online platform making our city of Heraklion Crete more accessible for people
  •	Beaches
  
  • Museums
+
+Requirements
+
+• HTML
+
+• CSS
+
+• JAVASCRIPT
+
+• PHP
